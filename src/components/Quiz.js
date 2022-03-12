@@ -113,7 +113,6 @@ export default function Quiz() {
       })
     }
   }
-
   // CREATE QUESTION ELEMENTS WITH REUSABLE COMPONENT
   const questionElements = allQuestions.map(function (_, index) {
     // GUARD CLAUSE
