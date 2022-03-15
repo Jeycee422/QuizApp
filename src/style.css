@@ -79,10 +79,6 @@ select {
   cursor: pointer;
 }
 
-.button:hover {
-  transform: scale(1.1);
-}
-
 .button::after {
   position: absolute;
   top: 0;
@@ -95,19 +91,8 @@ select {
   z-index: -1;
 }
 
-.button:hover::after {
-  transform: scale(1.5);
-  transition: all 0.15s ease-out;
-  opacity: 0;
-}
-
 /* ************************************************************ */
 /* LOADING SPINNER */
-.spinner {
-  height: 4rem;
-  margin: 0 auto;
-  animation: spinner 1s linear infinite;
-}
 
 /* ************************************************************ */ /* SPLASH SCREEN */
 .splash__heading {
