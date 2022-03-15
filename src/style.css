@@ -91,10 +91,6 @@ select {
   z-index: -1;
 }
 
-/* ************************************************************ */
-/* LOADING SPINNER */
-
-/* ************************************************************ */ /* SPLASH SCREEN */
 .splash__heading {
   font-family: var(--font-heading);
   font-size: 1.953125rem;
